@@ -2,6 +2,7 @@ from keras.models import Model
 from keras import initializers
 from keras import constraints
 from keras import regularizers
+from keras import activations
 from keras.layers import *
 from .engine import RNNCell
 
